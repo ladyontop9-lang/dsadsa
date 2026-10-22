@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "avatrix",
+  "version": "${version}",
+  "name": "Avatrix",
+  "description": "Client GUI with Target ESP (line of sight only) and color settings.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.avatrix.AvatrixClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
